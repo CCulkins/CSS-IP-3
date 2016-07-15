@@ -1,10 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Cormorant+SC:400,300,500|Maitree:300,200);
 body {
-  background: #8bd2d4;
   padding: 20px; }
 
+.right {
+  float: right;
+  border: 1px solid black;
+  margin-left: 10px; }
+
+.left {
+  border: 1px solid black;
+  float: left;
+  margin-right: 10px; }
+  .left img {
+    width: 35px; }
+
 .main {
-  border: 2px solid white; }
+  border: 2px solid red; }
+  .main img {
+    border: 2px solid red;
+    width: 93.5vw; }
 
 .blogTiles {
   border: 2px solid pink; }
@@ -14,7 +28,8 @@ body {
   width: 400px;
   height: 550px;
   float: left;
-  margin-left: 40px; }
+  margin-left: 40px;
+  margin-bottom: 30px; }
   .tile p {
     font-size: 18px;
     font-family: "Maitree";
