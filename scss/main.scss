@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Cormorant+SC:400,300,500|Maitree:300,200);
 
 body {
-  // background: #8bd2d4;
+
   padding: 20px;
 }
 
@@ -26,17 +26,19 @@ body {
     img {
       border: 2px solid red;
       width: 93.5vw;
+      max-width: 1450px;
     }
 }
 
 .blogTiles {
   border: 2px solid pink;
+  max-width: 1800px;
 }
 
 .tile {
   border: 1px solid firebrick;
-  width: 400px;
-  height: 550px;
+  width: 250px;
+  height: 400px;
   float: left;
   margin-left: 40px;
   margin-bottom: 30px;
@@ -47,14 +49,14 @@ body {
     }
     .imgBox {
         img {
-          align-content: center;
+          width: 250px;
           border: 1px solid black;
         }
 
         .postTitle {
           border: 1px solid black;
           position: relative;
-          top: -60px;
+          top: -55px;
           background: white;
           opacity: 0.5;
           height: 50px;
