@@ -1,4 +1,5 @@
 body {
-  background-color: pink; }
+  background-image: url(../tile1.jpg);
+  background-repeat: repeat; }
 
 /*# sourceMappingURL=main.css.map */

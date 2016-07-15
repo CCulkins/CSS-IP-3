@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAK;EACH,gBAAgB,EAAE,IAAI",
-"sources": ["../scss/partials/_buttons.scss"],
+"mappings": "AAEA,IAAK;EACH,gBAAgB,EAAE,iBAAiB;EACnC,iBAAiB,EAAE,MAAM",
+"sources": ["../scss/main.scss"],
 "names": [],
 "file": "main.css"
 }
