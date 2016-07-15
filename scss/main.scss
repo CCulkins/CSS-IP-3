@@ -1,6 +1,49 @@
 @import "partials/base";
+@import url(https://fonts.googleapis.com/css?family=Cormorant+SC:400,300,500|Maitree:300,200);
 
 body {
-  background-image: url(../tile1.jpg);
-  background-repeat: repeat;
+  background: #8bd2d4;
+  padding: 20px;
+}
+
+.main {
+  border: 2px solid white;
+}
+
+.blogTiles {
+  border: 2px solid pink;
+}
+
+.tile {
+  border: 1px solid firebrick;
+  width: 400px;
+  height: 550px;
+  float: left;
+  margin-left: 40px;
+    p {
+      font-size: 18px;
+      font-family: "Maitree";
+      font-weight: 200;
+    }
+    .imgBox {
+        img {
+          align-content: center;
+          border: 1px solid black;
+        }
+
+        .postTitle {
+          border: 1px solid black;
+          position: relative;
+          top: -60px;
+          background: white;
+          opacity: 0.5;
+          height: 50px;
+        }
+
+        p {
+          font-size: 22px;
+          font-family: "Maitree";
+          font-weight: 200;
+        }
+      }
 }

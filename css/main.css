@@ -1,5 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Cormorant+SC:400,300,500|Maitree:300,200);
 body {
-  background-image: url(../tile1.jpg);
-  background-repeat: repeat; }
+  background: #8bd2d4;
+  padding: 20px; }
+
+.main {
+  border: 2px solid white; }
+
+.blogTiles {
+  border: 2px solid pink; }
+
+.tile {
+  border: 1px solid firebrick;
+  width: 400px;
+  height: 550px;
+  float: left;
+  margin-left: 40px; }
+  .tile p {
+    font-size: 18px;
+    font-family: "Maitree";
+    font-weight: 200; }
+  .tile .imgBox img {
+    align-content: center;
+    border: 1px solid black; }
+  .tile .imgBox .postTitle {
+    border: 1px solid black;
+    position: relative;
+    top: -60px;
+    background: white;
+    opacity: 0.5;
+    height: 50px; }
+  .tile .imgBox p {
+    font-size: 22px;
+    font-family: "Maitree";
+    font-weight: 200; }
 
 /*# sourceMappingURL=main.css.map */
