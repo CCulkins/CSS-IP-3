@@ -23,6 +23,8 @@ body {
 
 .main {
   border: 2px solid red;
+  width: 93.5vw;
+  max-width: 1450px;
     img {
       border: 2px solid red;
       width: 93.5vw;
@@ -36,36 +38,50 @@ body {
 }
 
 .tile {
-  border: 1px solid firebrick;
+  border: 2px solid firebrick;
   width: 250px;
-  height: 400px;
+  height: 325px;
   float: left;
   margin-left: 40px;
   margin-bottom: 30px;
     p {
-      font-size: 18px;
+      font-size: 16px;
       font-family: "Maitree";
       font-weight: 200;
+      margin-left: 10px;
+      margin-right: 10px;
     }
+
     .imgBox {
+      height: 175px;
+
         img {
           width: 250px;
           border: 1px solid black;
+
         }
 
         .postTitle {
           border: 1px solid black;
           position: relative;
+          width: 100%;
           top: -55px;
           background: white;
-          opacity: 0.5;
+          opacity: 0.7;
           height: 50px;
         }
 
         p {
+          margin-top: 0px;
+          margin-right: 10px;
           font-size: 22px;
           font-family: "Maitree";
           font-weight: 200;
+          line-height: 25px;
         }
       }
+
+}
+.tile:hover {
+  border: 2px solid #8bd2d4;
 }

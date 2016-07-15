@@ -1,10 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Cormorant+SC:400,300,500|Maitree:300,200);
 @media only screen and (max-width: 435px) {
   body {
-    background: #E0E0E0; } }
+    background: #E0E0E0; }
+
+  .wrap {
+    min-width: 300px; }
+
+  .hide {
+    display: none; } }
 @media only screen and (min-width: 436px) and (max-width: 775px) {
   body {
-    background: #EED2EE; } }
+    background: #EED2EE; }
+
+  .hamburger {
+    display: none; } }
+@media only screen and (min-width: 776px) {
+  .hamburger {
+    display: none; } }
 body {
   padding: 20px; }
 
@@ -21,7 +33,9 @@ body {
     width: 35px; }
 
 .main {
-  border: 2px solid red; }
+  border: 2px solid red;
+  width: 93.5vw;
+  max-width: 1450px; }
   .main img {
     border: 2px solid red;
     width: 93.5vw;
@@ -32,29 +46,40 @@ body {
   max-width: 1800px; }
 
 .tile {
-  border: 1px solid firebrick;
+  border: 2px solid firebrick;
   width: 250px;
-  height: 400px;
+  height: 325px;
   float: left;
   margin-left: 40px;
   margin-bottom: 30px; }
   .tile p {
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Maitree";
-    font-weight: 200; }
-  .tile .imgBox img {
-    width: 250px;
-    border: 1px solid black; }
-  .tile .imgBox .postTitle {
-    border: 1px solid black;
-    position: relative;
-    top: -55px;
-    background: white;
-    opacity: 0.5;
-    height: 50px; }
-  .tile .imgBox p {
-    font-size: 22px;
-    font-family: "Maitree";
-    font-weight: 200; }
+    font-weight: 200;
+    margin-left: 10px;
+    margin-right: 10px; }
+  .tile .imgBox {
+    height: 175px; }
+    .tile .imgBox img {
+      width: 250px;
+      border: 1px solid black; }
+    .tile .imgBox .postTitle {
+      border: 1px solid black;
+      position: relative;
+      width: 100%;
+      top: -55px;
+      background: white;
+      opacity: 0.7;
+      height: 50px; }
+    .tile .imgBox p {
+      margin-top: 0px;
+      margin-right: 10px;
+      font-size: 22px;
+      font-family: "Maitree";
+      font-weight: 200;
+      line-height: 25px; }
+
+.tile:hover {
+  border: 2px solid #8bd2d4; }
 
 /*# sourceMappingURL=main.css.map */

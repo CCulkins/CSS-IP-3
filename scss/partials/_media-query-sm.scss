@@ -2,5 +2,31 @@
 
   body {
     background: #E0E0E0;
+
+  }
+
+  .wrap {
+    min-width: 300px;
+  }
+
+  // .left {
+  //   float: left;
+  // }
+  //
+  // .hamburger {
+  //   width: 50px;
+  //   height: 50px;
+  //   border: 1px solid black;
+  //
+  //
+  // }
+  //
+  // .line {
+  //   width: 40px;
+  //   height: 5px;
+  //   border: 1px solid black;
+  // }
+  .hide {
+    display: none;
   }
 }
