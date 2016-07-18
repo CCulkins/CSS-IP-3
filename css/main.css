@@ -1,25 +1,132 @@
 @import url(https://fonts.googleapis.com/css?family=Cormorant+SC:400,300,500|Maitree:300,200);
 @media only screen and (max-width: 435px) {
   body {
-    background: #E0E0E0; }
+    background: #E0E0E0;
+    padding: 5px; }
 
   .wrap {
     min-width: 300px; }
+
+  .tile {
+    border: 2px solid firebrick;
+    width: 175px;
+    height: 250px;
+    float: left;
+    margin-bottom: 2vw;
+    margin-left: .75vw;
+    margin-right: .5vw; }
+    .tile p {
+      font-size: 14px;
+      font-family: "Maitree";
+      font-weight: 200;
+      margin-left: 8px;
+      margin-right: 8px;
+      line-height: 15px;
+      margin-top: 55px; }
+    .tile .imgBox {
+      height: 100px; }
+      .tile .imgBox img {
+        width: 175px;
+        border: 1px solid black; }
+      .tile .imgBox .postTitle {
+        background: white;
+        opacity: 0.7;
+        border: 1px solid black;
+        position: relative;
+        width: 100%;
+        top: -20px;
+        height: 35px; }
+      .tile .imgBox p {
+        margin-top: 00px;
+        margin-right: 8px;
+        font-size: 14px;
+        font-family: "Maitree";
+        font-weight: 200;
+        line-height: 17px; }
 
   .hide {
     display: none; } }
 @media only screen and (min-width: 436px) and (max-width: 775px) {
   body {
-    background: #EED2EE; }
+    background: #EED2EE;
+    padding: 20px; }
 
   .hamburger {
-    display: none; } }
+    display: none; }
+
+  .tile {
+    border: 2px solid firebrick;
+    width: 250px;
+    height: 325px;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 30px; }
+    .tile p {
+      font-size: 16px;
+      font-family: "Maitree";
+      font-weight: 200;
+      margin-left: 10px;
+      margin-right: 10px; }
+    .tile .imgBox {
+      height: 175px; }
+      .tile .imgBox img {
+        width: 250px;
+        border: 1px solid black; }
+      .tile .imgBox .postTitle {
+        background: white;
+        opacity: 0.7;
+        border: 1px solid black;
+        position: relative;
+        width: 100%;
+        top: -55px;
+        height: 50px; }
+      .tile .imgBox p {
+        margin-top: 0px;
+        margin-right: 10px;
+        font-size: 22px;
+        font-family: "Maitree";
+        font-weight: 200;
+        line-height: 25px; } }
 @media only screen and (min-width: 776px) {
-  .hamburger {
-    display: none; } }
-body {
-  padding: 20px; }
+  body {
+    padding: 20px; }
 
+  .hamburger {
+    display: none; }
+
+  .tile {
+    border: 2px solid firebrick;
+    width: 250px;
+    height: 325px;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 30px; }
+    .tile p {
+      font-size: 16px;
+      font-family: "Maitree";
+      font-weight: 200;
+      margin-left: 10px;
+      margin-right: 10px; }
+    .tile .imgBox {
+      height: 175px; }
+      .tile .imgBox img {
+        width: 250px;
+        border: 1px solid black; }
+      .tile .imgBox .postTitle {
+        background: white;
+        opacity: 0.7;
+        border: 1px solid black;
+        position: relative;
+        width: 100%;
+        top: -55px;
+        height: 50px; }
+      .tile .imgBox p {
+        margin-top: 0px;
+        margin-right: 10px;
+        font-size: 22px;
+        font-family: "Maitree";
+        font-weight: 200;
+        line-height: 25px; } }
 .right {
   float: right;
   border: 1px solid black;
@@ -41,43 +148,12 @@ body {
     width: 93.5vw;
     max-width: 1450px; }
 
+.mainImg {
+  width: 70vw; }
+
 .blogTiles {
   border: 2px solid pink;
   max-width: 1800px; }
-
-.tile {
-  border: 2px solid firebrick;
-  width: 250px;
-  height: 325px;
-  float: left;
-  margin-left: 40px;
-  margin-bottom: 30px; }
-  .tile p {
-    font-size: 16px;
-    font-family: "Maitree";
-    font-weight: 200;
-    margin-left: 10px;
-    margin-right: 10px; }
-  .tile .imgBox {
-    height: 175px; }
-    .tile .imgBox img {
-      width: 250px;
-      border: 1px solid black; }
-    .tile .imgBox .postTitle {
-      border: 1px solid black;
-      position: relative;
-      width: 100%;
-      top: -55px;
-      background: white;
-      opacity: 0.7;
-      height: 50px; }
-    .tile .imgBox p {
-      margin-top: 0px;
-      margin-right: 10px;
-      font-size: 22px;
-      font-family: "Maitree";
-      font-weight: 200;
-      line-height: 25px; }
 
 .tile:hover {
   border: 2px solid #8bd2d4; }

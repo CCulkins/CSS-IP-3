@@ -1,0 +1,12 @@
+@mixin postTitle {
+  background: white;
+  opacity: 0.7;
+  border: 1px solid black;
+  position: relative;
+  width: 100%;
+}
+
+@mixin blogTiles {
+  border: 2px solid pink;
+  max-width: 1800px;
+}

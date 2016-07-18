@@ -2,11 +2,54 @@
 
   body {
     background: #EED2EE;
+    padding: 20px;
   }
 
   .hamburger {
     display: none;
   }
 
+
+  .tile {
+    border: 2px solid firebrick;
+    width: 250px;
+    height: 325px;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 30px;
+      p {
+        font-size: 16px;
+        font-family: "Maitree";
+        font-weight: 200;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      .imgBox {
+        height: 175px;
+
+          img {
+            width: 250px;
+            border: 1px solid black;
+
+          }
+
+          .postTitle {
+            @include postTitle;
+            top: -55px;
+            height: 50px;
+          }
+
+          p {
+            margin-top: 0px;
+            margin-right: 10px;
+            font-size: 22px;
+            font-family: "Maitree";
+            font-weight: 200;
+            line-height: 25px;
+          }
+        }
+
+  }
 
 }
