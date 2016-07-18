@@ -1,18 +1,18 @@
 @media only screen and (max-width: 347px) {
   body {
-    background: #CFDBC5;
+    // background: #CFDBC5;
     padding: 5px;
   }
 
-  .hamburger {
-    display: none;
-  }
+  // .hamburger {
+  //   display: none;
+  // }
 
   .blurb {
     display: none;
   }
   .tile {
-    border: 2px solid firebrick;
+    border: 2px solid white;
     width: 85vw;
     min-width: 175px;
     height: 175px;
@@ -34,7 +34,7 @@
           img {
             width: 85vw;
             min-width: 175px;
-            border: 1px solid black;
+            border: 1px solid white;
             margin-bottom: 10px;
 
           }
@@ -56,6 +56,10 @@
           }
         }
 
+  }
+
+  .hide {
+    display: none;
   }
 
 }

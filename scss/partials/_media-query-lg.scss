@@ -4,17 +4,17 @@
     padding: 10px;
   }
 
-.hamburger {
-  display: none;
-}
+// .hamburger {
+//   display: none;
+// }
 
 .blogTiles {
   min-width: 950px;
-  border: 2px solid black;
+  // border: 2px solid black;
 }
 
 .tile {
-  border: 2px solid firebrick;
+  border: 2px solid white;
   width: 250px;
   height: 300px;
   float: left;
@@ -33,7 +33,7 @@
 
         img {
           width: 250px;
-          border: 1px solid black;
+          border: 1px solid white;
 
         }
 

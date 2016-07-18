@@ -1,16 +1,18 @@
 @media only screen and (min-width: 348px) and (max-width: 435px) {
 
   body {
-    background: #E0E0E0;
+    // background: #E0E0E0;
     padding: 5px;
   }
+
+
 
   .wrap {
     min-width: 300px;
   }
 
   .tile {
-    border: 2px solid firebrick;
+    border: 2px solid white;
     // width: 175px;
     // height: 250px;
     width: 40vw;
@@ -35,7 +37,7 @@
           img {
             // width: 175px;
             width: 40vw;
-            border: 1px solid black;
+            border: 1px solid white;
 
           }
 
