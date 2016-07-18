@@ -1,5 +1,54 @@
 @import url(https://fonts.googleapis.com/css?family=Cormorant+SC:400,300,500|Maitree:300,200);
-@media only screen and (max-width: 435px) {
+@media only screen and (max-width: 347px) {
+  body {
+    background: #CFDBC5;
+    padding: 5px; }
+
+  .hamburger {
+    display: none; }
+
+  .blurb {
+    display: none; }
+
+  .tile {
+    border: 2px solid firebrick;
+    width: 85vw;
+    min-width: 175px;
+    height: 175px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background: white; }
+    .tile p {
+      font-size: 14px;
+      font-family: "Maitree";
+      font-weight: 200;
+      margin-left: 10px;
+      margin-right: 10px; }
+    .tile .imgBox {
+      height: 85vw;
+      margin-bottom: 10px; }
+      .tile .imgBox img {
+        width: 85vw;
+        min-width: 175px;
+        border: 1px solid black;
+        margin-bottom: 10px; }
+      .tile .imgBox .postTitle {
+        background: white;
+        opacity: 0.7;
+        border: 1px solid black;
+        position: relative;
+        width: 100%;
+        top: -100px;
+        height: 50px; }
+      .tile .imgBox p {
+        margin-top: 0px;
+        margin-right: 10px;
+        font-size: 1em;
+        font-family: "Maitree";
+        font-weight: 200;
+        line-height: 25px; } }
+@media only screen and (min-width: 348px) and (max-width: 435px) {
   body {
     background: #E0E0E0;
     padding: 5px; }
@@ -9,14 +58,14 @@
 
   .tile {
     border: 2px solid firebrick;
-    width: 175px;
-    height: 250px;
+    width: 40vw;
+    height: 45vh;
     float: left;
     margin-bottom: 2vw;
-    margin-left: .75vw;
-    margin-right: .5vw; }
+    margin-left: 5px;
+    margin-right: 5px; }
     .tile p {
-      font-size: 14px;
+      font-size: .75em;
       font-family: "Maitree";
       font-weight: 200;
       margin-left: 8px;
@@ -26,7 +75,7 @@
     .tile .imgBox {
       height: 100px; }
       .tile .imgBox img {
-        width: 175px;
+        width: 40vw;
         border: 1px solid black; }
       .tile .imgBox .postTitle {
         background: white;
@@ -39,7 +88,7 @@
       .tile .imgBox p {
         margin-top: 00px;
         margin-right: 8px;
-        font-size: 14px;
+        font-size: .75em;
         font-family: "Maitree";
         font-weight: 200;
         line-height: 17px; }
