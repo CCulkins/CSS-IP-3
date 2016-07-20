@@ -1,12 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Cormorant+SC:400,300,500|Maitree:300,200);
+
 @mixin postTitle {
   background: white;
   opacity: 0.7;
-  // border: 1px solid black;
   position: relative;
   width: 100%;
 }
 
 @mixin blogTiles {
   max-width: 1800px;
-
 }
+
+@mixin tileP {
+  font-weight: 200;
+  margin-top: 0px;
+  margin-right: 10px;
+  font-family: "Maitree";
+}
+
+$border: lightgrey;

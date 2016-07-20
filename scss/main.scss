@@ -1,8 +1,4 @@
-// @import "other-sass-partials-below";
 @import "partials/base";
-@import url(https://fonts.googleapis.com/css?family=Cormorant+SC:400,300,500|Maitree:300,200);
-
-$border: lightgrey;
 
 .cf {
   @include clearfix;
@@ -10,21 +6,25 @@ $border: lightgrey;
 
 body {
   background: #8bd2d4;
+  max-width: 1550px;
+}
 
-}
 .wrapper {
-    min-width: 350px;
+  min-width: 350px;
 }
-.right {
+
+.navLinks {
   float: right;
   margin-left: 10px;
+  font-family: "Maitree";
+  padding: right;
 }
 
-.right:hover {
-  color: lightgrey;
+.navLinks:hover {
+  color: white;
 }
 
-.left {
+.navBubbles {
   float: left;
     img {
       width: 35px;
@@ -32,17 +32,14 @@ body {
 }
 
 .main {
-  // border: 2px solid red;
   width: 93.5vw;
   max-width: 1450px;
-
 
     img {
       border: 1px solid white;
       width: 93.5vw;
       max-width: 1450px;
     }
-
 }
 
 .mainImg {

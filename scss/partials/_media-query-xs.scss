@@ -1,16 +1,13 @@
 @media only screen and (max-width: 347px) {
   body {
-    // background: #CFDBC5;
     min-width: 205px;
   }
-
-
 
   .mainImg {
     min-width: 205px;
   }
 
-  .left {
+  .navBubbles {
     margin-right: 1vw;
     margin-left: 1vw;  }
 
@@ -38,13 +35,10 @@
     left: 1.5px;
   }
 
-  // .hamburger {
-  //   display: none;
-  // }
-
   .blurb {
     display: none;
   }
+
   .tile {
     border: 2px solid white;
     width: 85vw;
@@ -54,6 +48,7 @@
     margin-left: 10px;
     margin-bottom: 5px;
     background: white;
+
       p {
         font-size: 14px;
         font-family: "Maitree";

@@ -4,13 +4,8 @@
     padding: 10px;
   }
 
-// .hamburger {
-//   display: none;
-// }
-
 .blogTiles {
   min-width: 950px;
-  // border: 2px solid black;
 }
 
 .tile {
@@ -32,28 +27,23 @@
       height: 175px;
 
 
-        img {
-          width: 100%;
-        }
-
-        .postTitle {
-          @include postTitle;
-          top: -55px;
-          height: 50px;
-        }
-
-        p {
-          margin-top: 0px;
-          margin-right: 10px;
-          font-size: 18px;
-          font-family: "Maitree";
-          font-weight: 200;
-          line-height: 25px;
-        }
+      img {
+        width: 100%;
       }
 
+      .postTitle {
+        @include postTitle;
+        top: -55px;
+        height: 50px;
+      }
+
+      p {
+        @include tileP;
+        font-size: 18px;
+        line-height: 25px;
+      }
+  }
+
 }
-
-
 
 }

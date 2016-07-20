@@ -1,27 +1,8 @@
 @media only screen and (min-width: 436px) and (max-width: 775px) {
 
   body {
-    // background: #EED2EE;
     padding: 10px;
   }
-
-//
-// .right {
-//   width: 30vw;
-//   margin-right: 0;
-//
-//   // min-width: 450px;
-//   // margin-right: 2vw;
-// }
-//
-// .left {
-//   width: 30vw;
-//   margin-left: 0;
-//
-//   // min-width: 450px;
-//   // margin-right: 2vw;
-// }
-
 
   .tile {
     border: 2px solid white;
@@ -33,20 +14,7 @@
     margin-bottom: 2vh;
     padding-bottom: 9px;
 
-      // p {
-      //   font-size: .80em;
-      //   font-family: "Maitree";
-      //   font-weight: 200;
-      //   margin-left: 5px;
-      //   margin-right: 5px;
-      //   line-height: 20px;
-      //   // position:relative;
-      //   // top: -130px;
-      // }
-
-
       p {
-        // font-size: 16px;
         font-family: "Maitree";
         font-weight: 200;
         margin-left: 5px;
@@ -67,36 +35,20 @@
             @include postTitle;
             position: relative;
             top: -18%;
-            // top: -55px;
             height: 40px;
-
-
           }
 
           p {
-            margin-top: 0px;
-            margin-right: 10px;
+            @include tileP;
             font-size: 1em;
-            font-family: "Maitree";
-            font-weight: 200;
             line-height: 20px;
+            font-family: "Maitree";
           }
 
-
-          // p {
-          //   margin-top: 5px;
-          //   margin-right: 5px;
-          //   font-size: .95em;
-          //   font-family: "Maitree";
-          //   font-weight: 200;
-          //   line-height: 20px;
-          // }
         }
-
   }
 
   .blurb {
-    // margin-top: -16vh;
     line-height: 15px;
     font-size: .85em;
     position: relative;

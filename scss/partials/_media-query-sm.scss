@@ -1,7 +1,6 @@
 @media only screen and (min-width: 348px) and (max-width: 435px) {
 
   body {
-    // background: #E0E0E0;
     padding: 5px;
   }
 
@@ -29,8 +28,6 @@
 
   .tile {
     border: 2px solid white;
-    // width: 175px;
-    // height: 250px;
     width: 40vw;
     height: 260px;
     float: left;
@@ -51,7 +48,6 @@
         height: 100px;
 
           img {
-            // width: 175px;
             width: 40vw;
           }
 
@@ -62,34 +58,14 @@
           }
 
           p {
-            margin-top: 00px;
+            @include tileP;
             margin-right: 8px;
             font-size: .8em;
-            font-family: "Maitree";
-            font-weight: 200;
             line-height: 17px;
           }
         }
+      }
 
-  }
-
-  // .left {
-  //   float: left;
-  // }
-  //
-  // .hamburger {
-  //   width: 50px;
-  //   height: 50px;
-  //   border: 1px solid black;
-  //
-  //
-  // }
-  //
-  // .line {
-  //   width: 40px;
-  //   height: 5px;
-  //   border: 1px solid black;
-  // }
   .hide {
     display: none;
   }
