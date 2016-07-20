@@ -7,6 +7,7 @@
 body {
   background: #8bd2d4;
   max-width: 1550px;
+  @extend .cf;
 }
 
 .wrapper {
@@ -34,6 +35,7 @@ body {
 .main {
   width: 93.5vw;
   max-width: 1450px;
+  @extend .cf;
 
     img {
       border: 1px solid white;
@@ -48,10 +50,12 @@ body {
 
 .blogTiles {
   @include blogTiles;
+  @extend .cf;
 }
 
 .tile {
   border: 2px solid $border;
+  @extend .cf;
 }
 
 .tile:hover {

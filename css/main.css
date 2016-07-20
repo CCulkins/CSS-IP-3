@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Cormorant+SC:400,300,500|Maitree:300,200);
+.awesome {
+  font-family: "Maitree";
+  font-weight: 200; }
+
 @media only screen and (max-width: 347px) {
   body {
     min-width: 205px; }
@@ -218,7 +222,7 @@
         font-family: "Maitree";
         font-size: 18px;
         line-height: 25px; } }
-.cf::after {
+.cf::after, body::after, .main::after, .blogTiles::after, .tile::after {
   clear: both;
   content: "";
   display: table; }
