@@ -5,7 +5,23 @@
     padding: 5px;
   }
 
+  .hamburger {
+    background: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: .5px solid #eaeaea;
+  }
 
+  .burgerLine {
+    width: 20px;
+    border: .5px solid #333333;
+    background: #333333;
+    margin: 2px;
+    position: relative;
+    top: 8px;
+    left: 1.5px;
+  }
 
   .wrap {
     min-width: 300px;
@@ -37,8 +53,6 @@
           img {
             // width: 175px;
             width: 40vw;
-            border: 1px solid white;
-
           }
 
           .postTitle {

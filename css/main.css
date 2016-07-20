@@ -1,7 +1,36 @@
 @import url(https://fonts.googleapis.com/css?family=Cormorant+SC:400,300,500|Maitree:300,200);
 @media only screen and (max-width: 347px) {
   body {
-    padding: 5px; }
+    min-width: 205px; }
+
+  .mainImg {
+    min-width: 205px; }
+
+  .left {
+    margin-right: 1vw;
+    margin-left: 1vw; }
+
+  .circleBtns {
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-height: 40px; }
+
+  .hamburger {
+    background: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: .5px solid #eaeaea; }
+
+  .burgerLine {
+    width: 20px;
+    border: .5px solid #333333;
+    background: #333333;
+    margin: 2px;
+    position: relative;
+    top: 8px;
+    left: 1.5px; }
 
   .blurb {
     display: none; }
@@ -26,7 +55,6 @@
       .tile .imgBox img {
         width: 85vw;
         min-width: 175px;
-        border: 1px solid white;
         margin-bottom: 10px; }
       .tile .imgBox .postTitle {
         background: white;
@@ -48,6 +76,22 @@
 @media only screen and (min-width: 348px) and (max-width: 435px) {
   body {
     padding: 5px; }
+
+  .hamburger {
+    background: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: .5px solid #eaeaea; }
+
+  .burgerLine {
+    width: 20px;
+    border: .5px solid #333333;
+    background: #333333;
+    margin: 2px;
+    position: relative;
+    top: 8px;
+    left: 1.5px; }
 
   .wrap {
     min-width: 300px; }
@@ -71,8 +115,7 @@
     .tile .imgBox {
       height: 100px; }
       .tile .imgBox img {
-        width: 40vw;
-        border: 1px solid white; }
+        width: 40vw; }
       .tile .imgBox .postTitle {
         background: white;
         opacity: 0.7;
@@ -114,8 +157,7 @@
       .tile .imgBox img {
         width: 100%;
         margin-bottom: 5px;
-        max-width: 250px;
-        border: 1px solid white; }
+        max-width: 250px; }
       .tile .imgBox .postTitle {
         background: white;
         opacity: 0.7;
@@ -160,8 +202,7 @@
     .tile .imgBox {
       height: 175px; }
       .tile .imgBox img {
-        width: 250px;
-        border: 1px solid white; }
+        width: 100%; }
       .tile .imgBox .postTitle {
         background: white;
         opacity: 0.7;
@@ -176,6 +217,11 @@
         font-family: "Maitree";
         font-weight: 200;
         line-height: 25px; } }
+.cf:after {
+  content: "";
+  display: block;
+  clear: both; }
+
 body {
   background: #8bd2d4; }
 
@@ -190,8 +236,7 @@ body {
   color: lightgrey; }
 
 .left {
-  float: left;
-  margin-right: 10px; }
+  float: left; }
   .left img {
     width: 35px; }
 
@@ -199,7 +244,7 @@ body {
   width: 93.5vw;
   max-width: 1450px; }
   .main img {
-    border: 2px solid white;
+    border: 1px solid white;
     width: 93.5vw;
     max-width: 1450px; }
 
@@ -209,7 +254,10 @@ body {
 .blogTiles {
   max-width: 1800px; }
 
-.tile:hover {
+.tile {
   border: 2px solid lightgrey; }
+
+.tile:hover {
+  border: 2px solid #878787; }
 
 /*# sourceMappingURL=main.css.map */

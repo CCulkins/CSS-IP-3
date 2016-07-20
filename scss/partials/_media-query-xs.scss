@@ -1,7 +1,42 @@
 @media only screen and (max-width: 347px) {
   body {
     // background: #CFDBC5;
-    padding: 5px;
+    min-width: 205px;
+  }
+
+
+
+  .mainImg {
+    min-width: 205px;
+  }
+
+  .left {
+    margin-right: 1vw;
+    margin-left: 1vw;  }
+
+  .circleBtns {
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-height: 40px;
+  }
+
+  .hamburger {
+    background: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: .5px solid #eaeaea;
+  }
+
+  .burgerLine {
+    width: 20px;
+    border: .5px solid #333333;
+    background: #333333;
+    margin: 2px;
+    position: relative;
+    top: 8px;
+    left: 1.5px;
   }
 
   // .hamburger {
@@ -34,9 +69,7 @@
           img {
             width: 85vw;
             min-width: 175px;
-            border: 1px solid white;
             margin-bottom: 10px;
-
           }
 
           .postTitle {

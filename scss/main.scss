@@ -1,6 +1,14 @@
 @import "partials/base";
 @import url(https://fonts.googleapis.com/css?family=Cormorant+SC:400,300,500|Maitree:300,200);
 
+$border: lightgrey;
+
+.cf:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 body {
   background: #8bd2d4;
 
@@ -19,7 +27,6 @@ body {
 
 .left {
   float: left;
-  margin-right: 10px;
     img {
       width: 35px;
     }
@@ -32,10 +39,11 @@ body {
 
 
     img {
-      border: 2px solid white;
+      border: 1px solid white;
       width: 93.5vw;
       max-width: 1450px;
     }
+
 }
 
 .mainImg {
@@ -46,7 +54,10 @@ body {
   @include blogTiles;
 }
 
+.tile {
+  border: 2px solid $border;
+}
 
 .tile:hover {
-  border: 2px solid lightgrey;
+  border: 2px solid darken($border, 30%)
 }
