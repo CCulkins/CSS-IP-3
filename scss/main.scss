@@ -1,12 +1,11 @@
+// @import "other-sass-partials-below";
 @import "partials/base";
 @import url(https://fonts.googleapis.com/css?family=Cormorant+SC:400,300,500|Maitree:300,200);
 
 $border: lightgrey;
 
-.cf:after {
-  content: "";
-  display: block;
-  clear: both;
+.cf {
+  @include clearfix;
 }
 
 body {

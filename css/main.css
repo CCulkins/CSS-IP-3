@@ -11,7 +11,6 @@
     margin-left: 1vw; }
 
   .circleBtns {
-    border: 1px solid black;
     padding-left: 20px;
     padding-right: 20px;
     max-height: 40px; }
@@ -217,10 +216,10 @@
         font-family: "Maitree";
         font-weight: 200;
         line-height: 25px; } }
-.cf:after {
+.cf::after {
+  clear: both;
   content: "";
-  display: block;
-  clear: both; }
+  display: table; }
 
 body {
   background: #8bd2d4; }
